@@ -2,19 +2,9 @@ server:
     port: 11005
 
 spring:
-#    datasource:
-#        type: com.alibaba.druid.pool.DruidDataSource
-#        url: jdbc:mysql://39.107.80.231:3306/SSO?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
-#        username: HengTian
-#        password: HengTian0.0
-#
-#    jpa:
-#        hibernate:
-#            ddl-auto: none
-#        show-sql: true
 
     redis:
-        host: 39.107.80.231
+        host: 127.0.0.1
         port: 6379
         password:
 
