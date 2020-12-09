@@ -35,7 +35,6 @@ public class RedisLockConfig {
                 // use "rediss://" for SSL connection
                 .addNodeAddress("redis://127.0.0.1:7181");*/
 
-        RedissonClient redisson = Redisson.create(config);
-        return redisson;
+        return Redisson.create(config);
     }
 }

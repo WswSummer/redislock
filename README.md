@@ -11,3 +11,6 @@
 3. lua脚本    lua = setnx + expire
 4. Reddisson
 5. Spring integration
+
+### 参考资料
+https://xiaomi-info.github.io/2019/12/17/redis-distributed-lock/
